@@ -1,0 +1,118 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.game_title
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    font-family: 'Verdana';
+    font-size: 50px;
+    text-align: Center;
+}
+
+.main_box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.board
+{
+    width: 306px;
+    height: 306px;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 0 #000;
+}
+
+.field
+{
+    width: 100px;
+    height: 90px;
+    border: 1px solid #000;
+    display: block;
+    float: left;
+    font-family: 'Verdana';
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.field:hover
+{
+    box-shadow: inset 5px 5px 0 #000;
+}
+
+.active_char
+{
+    width: 60px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    font-family: 'Verdana';
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+
+.winner_board
+{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(193, 193, 193, 0.5);
+    position: absolute;
+    top: 0;
+    font-family: 'Verdana';
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25%;
+    display: none;
+}
+
+.points_board
+{
+    width: 300px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    font-family: 'Verdana';
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0 #000;
+}
+
+.points_title
+{
+    font-family: 'Verdana';
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.reset_button
+{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.reset_button:hover
+{
+    color: #FFF;
+    background-color: #000;
+}
